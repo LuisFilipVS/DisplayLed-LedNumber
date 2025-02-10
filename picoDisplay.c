@@ -242,7 +242,6 @@ int main()
     while (true) {
         printf("Insira um caractere \n");
         scanf("%c", &input);
-        //while (getchar() != '\n');
 
         char texto[2];  // Um espaço para o caractere e um para o terminador nulo
         texto[0] = input;

@@ -42,7 +42,7 @@ pico_set_program_version(picoDisplay "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
 pico_enable_stdio_uart(picoDisplay 1)
-pico_enable_stdio_usb(picoDisplay 0)
+pico_enable_stdio_usb(picoDisplay 1)
 
 # Adiciona suporte à biblioteca PIO
 pico_generate_pio_header(${PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR}/ws2812b.pio)
